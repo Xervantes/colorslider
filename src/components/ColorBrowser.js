@@ -5,9 +5,9 @@ import ColorOutput from "./ColorOutput";
 class ColorBrowser extends Component {
 
     state = {
-        Red: 0,
-        Green: 0,
-        Blue: 0
+        Red: 25,
+        Green: 100,
+        Blue: 200
     }
 
     updateColorValue = (event) => {
